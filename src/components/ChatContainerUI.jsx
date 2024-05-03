@@ -44,7 +44,7 @@ const ChatContainerUI = () => {
         try {
             const plainText = inputResponce.replace(/<\/?[^>]+(>|$)/g, "");
             // const newPrompt = 'chat like you are genuine user of social media app : ' +plainText;
-             const newPrompt = " assume you are a  so you have to give health related tips to the user for this : " +  plainText;
+             const newPrompt = "Assume you are a medical advisor so you have to give health related tips to the user for this : " +  plainText;
             console.log('Text Prompt : ', plainText);
             setPrompt(newPrompt);
 
